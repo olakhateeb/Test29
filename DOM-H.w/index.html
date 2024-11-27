@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <style>
+        .highlight { background-color: yellow; }
+        .underline { text-decoration: underline; }
+        .bold { font-weight: bold; }
+       </style>
+      <!--Q1-->
+       <h2>Add Class to Paragraph</h2>
+       <input type="text" id="className" placeholder="Enter class name">
+       <button id="addClassButton">Add Class</button>
+       <p id="paragraph">This is a paragraph.</p>
+<!--Q2-->
+<p class="visible" id="paragraph1">This is paragraph 1</p>
+<p class="visible" id="paragraph2">This is paragraph 2</p>
+<p class="visible" id="paragraph3">This is paragraph 3</p>
+<button onclick="toggleVisibility('paragraph1')">Toggle paragraph 1</button>
+<button onclick="toggleVisibility('paragraph2')">Toggle paragraph 2</button>
+<button onclick="toggleVisibility('paragraph3')">Toggle paragraph 3</button>
+
+
+<section>
+    <button id="myButton">Click me </button>
+  </section>
+
+    <script src="javaScript.js"></script>
+
+</body>
+</html>
